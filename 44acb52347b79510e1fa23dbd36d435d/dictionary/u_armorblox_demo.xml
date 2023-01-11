@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1852e62547886d10e1fa23dbd36d43e7" label="armorblox_demo" max_length="40" name="u_armorblox_demo" type="collection">
+        <element label="app_name" max_length="40" name="u_app_name" type="string"/>
+        <element label="date" max_length="40" name="u_date" type="string"/>
+        <element label="incident_id" max_length="40" name="u_incident_id" type="string"/>
+        <element label="incident_type" max_length="40" name="u_incident_type" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <element label="policy_name" max_length="40" name="u_policy_name" type="string"/>
+        <element label="remediation_actions" max_length="40" name="u_remediation_actions" type="string"/>
+    </element>
+</database>

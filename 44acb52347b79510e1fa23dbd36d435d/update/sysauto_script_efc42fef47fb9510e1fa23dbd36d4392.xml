@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name>Get_Incidents</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2022-12-22 15:28:05</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[Getincidentsdata();
+
+function Getincidentsdata() {
+    try {
+        var r = new sn_ws.RESTMessageV2('global.Get_incidents_data', 'Armorblox_incidents');
+        var ArmorbloxAPI = gs.getProperty('global.Armorblox_API');
+        r.setStringParameterNoEscape('Armorblox_API', 'g9nCCM6sNZ2CBt12UWgGA2IX+i3e6TP0MuwZ1Oqh6KU=');
+		r.setStringParameterNoEscape('incident_id', '73346');
+        //gs.info("Armorblox APIKey ="+ArmorbloxAPI);
+        var response = r.execute();
+        var responseBody = response.getBody();//gs.info("Response Body =" + responseBody);
+        var httpStatus = response.getStatusCode();
+        gs.info("Parsedemo" + responseBody);
+		
+
+
+    } catch (ex) {
+        var message = ex.message;
+    }
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-22 15:31:52</sys_created_on>
+        <sys_id>efc42fef47fb9510e1fa23dbd36d4392</sys_id>
+        <sys_name>Get_Incidents</sys_name>
+        <sys_package display_value="Armorblox_test" source="44acb52347b79510e1fa23dbd36d435d">44acb52347b79510e1fa23dbd36d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Armorblox_test">44acb52347b79510e1fa23dbd36d435d</sys_scope>
+        <sys_update_name>sysauto_script_efc42fef47fb9510e1fa23dbd36d4392</sys_update_name>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

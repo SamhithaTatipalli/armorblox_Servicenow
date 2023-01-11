@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 15:57:21</sys_created_on>
+        <sys_id>7205e22947886d10e1fa23dbd36d4365</sys_id>
+        <sys_name>u_armorblox_demo.u_armorblox_demo_user</sys_name>
+        <sys_package display_value="Armorblox_test" source="44acb52347b79510e1fa23dbd36d435d">44acb52347b79510e1fa23dbd36d435d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Armorblox_test">44acb52347b79510e1fa23dbd36d435d</sys_scope>
+        <sys_security_acl display_value="u_armorblox_demo">b605e22947886d10e1fa23dbd36d4362</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7205e22947886d10e1fa23dbd36d4365</sys_update_name>
+        <sys_user_role display_value="u_armorblox_demo_user" name="u_armorblox_demo_user">2a05aee547886d10e1fa23dbd36d4369</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

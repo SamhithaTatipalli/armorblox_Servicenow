@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="armorblox_demo" language="en" table="u_armorblox_demo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>armorblox_demo</label>
+            <language>en</language>
+            <name>u_armorblox_demo</name>
+            <plural>armorblox_demos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-28 15:57:21</sys_created_on>
+            <sys_name>armorblox_demo</sys_name>
+            <sys_package display_value="Armorblox_test" source="44acb52347b79510e1fa23dbd36d435d">44acb52347b79510e1fa23dbd36d435d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Armorblox_test">44acb52347b79510e1fa23dbd36d435d</sys_scope>
+            <sys_update_name>sys_documentation_u_armorblox_demo__en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
